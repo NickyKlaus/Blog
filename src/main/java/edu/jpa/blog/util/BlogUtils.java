@@ -17,6 +17,7 @@ public class BlogUtils {
     }
 
     public static String convertDateString(final Date source) {
+        System.out.println("TEST!");
         return DATE_FORMAT.format(source);
     }
 }
