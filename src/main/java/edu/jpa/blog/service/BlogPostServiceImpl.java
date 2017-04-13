@@ -110,13 +110,4 @@ public class BlogPostServiceImpl implements BlogPostService {
             query.setParameter("till", BlogUtils.convertStringToDate(criteria.getTillDate()));
         }
 
-        // prepare result
-        final List<BlogPost> posts = query.getResultList();
-
-        final List<BlogPostDTO> result = new ArrayList<BlogPostDTO>(posts.size());
-        for (final BlogPost post : posts) {
-            result.add(new BlogPostDTO(post));
-        }
-        return result;
-    }
 }
