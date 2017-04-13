@@ -21,7 +21,7 @@ public class BlogUtils {
         return DATE_FORMAT.format(source);
     }
 
-    public static String conv() {
+    public static String convString() {
         return "conv";
     }
 }

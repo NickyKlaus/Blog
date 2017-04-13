@@ -41,6 +41,7 @@ public class BlogController {
         } else {
             blog = new BlogDTO();
             blog.setId(0);
+            System.out.println();
         }
 
         final ModelAndView mav = new ModelAndView();
