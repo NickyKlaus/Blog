@@ -15,4 +15,9 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+       <bean id="viewResolver2" class="org.springframework.web.servlet.view.InternalResourceViewResolver2">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+       
 </beans>
