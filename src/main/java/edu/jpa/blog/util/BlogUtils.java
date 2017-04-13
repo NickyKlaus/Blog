@@ -20,4 +20,8 @@ public class BlogUtils {
         System.out.println("TEST!");
         return DATE_FORMAT.format(source);
     }
+
+    public static String conv() {
+        return "conv";
+    }
 }
