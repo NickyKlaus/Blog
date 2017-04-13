@@ -44,8 +44,4 @@ public class Blog extends DomainObject {
     public List<BlogPost> getPosts() {
         return posts;
     }
-
-    public void setPosts(List<BlogPost> posts) {
-        this.posts = posts;
-    }
 }
